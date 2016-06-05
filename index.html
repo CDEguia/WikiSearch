@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>WikiSearcher</title>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://codepen.io/CDEguia/full/dMWbmZ" target="_parent">
+                Wikipedia Searcher
+            </a>
+        </div>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="input-group">
+        <span class="input-group-btn">
+
+           <button href='https://en.wikipedia.org/wiki/Special:Random' class="btn btn-default action" type="button">?</button>
+
+      </span>
+                <input type="text" class="form-control searchString" id="searchbox" maxlength="120" aria-label="Search Box" placeholder="Search for..." required>
+        <span class="input-group-btn">
+      <button type="submit" class="btn btn-default">Submit</button>
+      </span>
+            </div>
+        </form>
+    </div>
+
+</nav>
+
+<div class='container-fluid'>
+    <div class="row ">
+        <div class="col-xs-12 col-sm-10 col-md-8 centered" id='resultsWindow'>
+            <h1 class="text-center">Find Your Page</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>
